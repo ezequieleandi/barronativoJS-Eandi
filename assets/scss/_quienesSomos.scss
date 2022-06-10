@@ -1,0 +1,45 @@
+.sectionQuienesSomos{
+    @include tamaño (100%, 100%);
+    .flexPresentacion{
+        @include flexCompleto (flex, center, space-evenly);
+        margin: 20px 0 20px 0;
+        img{
+            @include tamaño (100%, 50%);
+        }
+        div{
+            @extend .infoProd;
+            p{
+                text-align: center;
+                font-family: 'Raleway', sans-serif;
+                font-size: $font-24;
+                margin-top: 5%;
+            }
+        }
+    }
+}
+
+.flexSobreProd{
+    background-color: #EBD8C3;
+    display: flex;
+    margin-top: 3%;
+    padding: 3% 0 3% 0;
+    width: 100%;
+    .infoProd{
+        @include flexCompleto (flex, center, center);
+        flex-direction: column;
+        width: 100%;
+        h2{
+            margin: 0 0 5% 5%;
+        }
+        ul{
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.2rem;
+            margin: 4% 0 5% 0;
+            text-align: center;
+            list-style-type: none;
+            li:not(:first-child){
+                margin-top: 1.5%;
+            }
+        }
+    }
+}

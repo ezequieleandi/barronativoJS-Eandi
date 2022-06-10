@@ -1,0 +1,27 @@
+.sectionContacto{
+    margin: 3% 0 4% 0;
+    width: 100%;
+    .contactoCartelEnviado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .contactoContent{
+        color: black;
+        font-size: $font-20;
+        }
+    }
+    form{
+        margin: 2% 0 2% 17%;
+        font-size: $font-16;
+        font-family: 'Raleway', sans-serif;
+        .divBarraGral{
+            width: 100%;
+        }
+        .divBotones{
+            margin-left: 33%;
+            button{
+                background-color: $marronOscuro;
+            }
+        }
+    }
+}

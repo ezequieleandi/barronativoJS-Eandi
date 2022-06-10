@@ -1,0 +1,16 @@
+[
+    {"id":1, "producto": "TAZA", "linea": "Linea AMOR", "imagen":"../imgBarronativo2/tazasMod/amor2Mod.jpg", "capacidad": "250ml", "precio": 580},
+    {"id":2, "producto": "TAZA", "linea": "Linea CALMA", "imagen":"../imgBarronativo2/tazasMod/calmaMod.jpg", "capacidad":"250ml", "precio": 680},
+    {"id":3, "producto": "TAZA", "linea": "Linea EMPATIA", "imagen":"../imgBarronativo2/tazasMod/empatiaMod.jpg", "capacidad":"250ml", "precio": 650},
+
+
+    {"id":4, "producto": "CUENCO", "linea": "Linea PAZ", "imagen":"../imgBarronativo2/cuencosMod/pazMod.jpg", "capacidad": "mediano 12cm x 7cm", "precio": 880},
+    {"id":5, "producto": "CUENCO", "linea": "Linea AMOR", "imagen":"../imgBarronativo2/cuencosMod/amorMod.jpg", "capacidad": "mediano 12cm x 7cm", "precio": 880},
+    {"id":6, "producto": "CUENCO", "linea": "Linea VIDA", "imagen":"../imgBarronativo2/cuencosMod/vidaMod.jpg", "capacidad": "mediano 12cm x 7cm", "precio": 880},
+
+
+    {"id":7, "producto": "MATE", "linea": "Linea CALMA", "imagen":"../imgBarronativo2/matesMod/calmaMod.jpg","capacidad": "250ml", "precio": 880},
+    {"id":8, "producto": "MATE", "linea": "Linea LIBERTAD", "imagen":"../imgBarronativo2/matesMod/libertadMod.jpg","capacidad": "250ml", "precio": 700},
+    {"id":9, "producto": "MATE", "linea": "Linea PUREZA", "imagen":"../imgBarronativo2/matesMod/purezaMod.jpg","capacidad": "250ml", "precio": 750},
+    {"id":10, "producto": "MATE", "linea": "Linea EMPATIA", "imagen":"../imgBarronativo2/matesMod/empatiaMod.jpg","capacidad": "250ml", "precio": 790}
+]

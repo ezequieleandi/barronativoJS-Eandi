@@ -1,0 +1,30 @@
+header{
+    background-color: #EBD8C3;
+    width: 100%;
+    div{
+        @include flexCompleto (flex, center, center);
+        flex-wrap: wrap;
+        a img{
+            margin: 10% 0 0 2%;
+            @include tamaño (70%, 70%);
+        }
+        h1{
+            margin: 0 6% 1% 1%;
+            font-size: $font-48;
+        }
+         
+    }
+    .navItem{
+        background-color: #EBD8C3 !important;
+        div{
+            @include flex (flex, center);
+            ul li{
+                @include font ('Raleway' sans-serif, $font-16, italic, bold);
+                background-color: $marronOscuro;
+                margin-right: 1%;
+                list-style-type: none;
+                padding: 0 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.seccionComienzo{
+    @include tamaño (100%, 100%);
+    margin: 2% 0 5% 0;
+    .divUno{
+        display: flex;
+        .divPUno{
+            @include font ('Raleway' sans-serif, 1.3rem, italic, 500);
+            display: flex;
+            width: 60%;
+            text-align: center;
+            margin-top: 5%;
+            line-height: 1.8;
+        }
+        .divPDos{
+            @extend .divPUno;
+            margin-left: 40%;
+        }
+        div{
+            img{
+                @include tamaño (460px, 40vw);
+            }
+        } 
+    } 
+}
+.sectionProducto{
+    background-color: #F7E9D7;
+    margin-bottom: 8%;
+    h2{
+        background-color: #EBD8C3;
+        padding: 1% 0 1% 0;
+    }
+    .divParrafos{
+        text-align: center;
+        h3{
+            padding-top: 2%;
+            font-size: $font-32;
+            font-family: 'Raleway', sans-serif;
+            font-style: italic;
+        }
+    }
+    article .divProductos{
+        @include flex (flex, space-evenly);
+        flex-wrap: wrap;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        .cardProductos{
+            background-color: white;
+            @include tamaño (350px, 270px);
+            color: black;
+            text-align: center;
+            border-radius: 7%;
+            overflow: hidden;
+            transition: all 1.5s;
+            margin-top: 2%;
+            &:hover{
+                transform: scale(1.05);
+            }
+            img{
+                @include tamaño (50%, 100%);
+            }
+            .divContCard{
+                font-size: 0.8rem;
+            }
+        }
+        #cardCuencos{
+            height: 425px;
+        }
+    }
+}

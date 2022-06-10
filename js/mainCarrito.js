@@ -1,0 +1,2 @@
+dibujarProductoEnCarrito();
+actualizarBotonCarrito();

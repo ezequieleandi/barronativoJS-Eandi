@@ -1,0 +1,22 @@
+@mixin tamaño ($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
+
+@mixin flexCompleto ($display, $align, $justify){
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin flex ($display, $justify){
+    display: $display;
+    justify-content: $justify;
+}
+
+@mixin font ($family, $size, $style, $weight){
+    font-family: $family;
+    font-size: $size;
+    font-style: $style;
+    font-weight: $weight;
+}
