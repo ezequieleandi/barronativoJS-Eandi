@@ -144,7 +144,7 @@ function finalizarCompra(){
   </div>`
   carritoFinal.innerHTML = contenido;
   setTimeout(()=> {
-    location.pathname = "https://raw.githubusercontent.com/ezequieleandi/barronativoJS-Eandi/index.html";
+    location.pathname = "https://raw.githubusercontent.com/ezequieleandi/barronativoJS-Eandi/main/index.html";
   }, 4000)
   eliminarCarrito();
 }
