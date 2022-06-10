@@ -144,7 +144,7 @@ function finalizarCompra(){
   </div>`
   carritoFinal.innerHTML = contenido;
   setTimeout(()=> {
-    location.pathname = '../index.html';
+    location.pathname = "../index.html";
   }, 4000)
   eliminarCarrito();
 }
