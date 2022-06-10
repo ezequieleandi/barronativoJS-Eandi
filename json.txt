@@ -1,7 +1,7 @@
-"https://raw.githubusercontent.com/ezequieleandi/DesafioJsObligatorio/main/productos.json"
+"https://raw.githubusercontent.com/ezequieleandi/barronativoJS-Eandi/main/productos.json"
 
 
 
 
 
-"https://raw.githubusercontent.com/ezequieleandi/DesafioJsObligatorio/main/index.html"
+"https://raw.githubusercontent.com/ezequieleandi/barronativoJS-Eandi/main/index.html"
